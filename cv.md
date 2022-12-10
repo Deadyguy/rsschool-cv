@@ -13,3 +13,33 @@
 ## Summary
 
 In my life, I have met many jobs and professions, but the only thing that could unite them is coding skills. Coding has been haunting me in varying degrees throughout my life since school. It's time to put everything on the line. I'm in for all of it!
+
+## Skills
+
+- Git and GitHub
+- VSCode
+- HTML basics
+- CSS basics
+- JavaScript basics
+- 2D-animation (AE)
+
+## Code examples
+
+_Every day the snail crawls 7 feet up and every night it goes down 2 feet. How many days will it take the snail to climb to the specified height?_
+
+```
+function main() {
+    let depth = parseInt(readLine(), 10);
+    let days = 0;
+    for (distance = 0; ; ) {
+     distance += 7;
+     days++;
+     if (distance >= depth) {
+      break;
+     } else {
+      distance -= 2;
+     }
+    }
+    console.log(days);
+}
+```
