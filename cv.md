@@ -22,6 +22,7 @@ In my life, I have met many jobs and professions, but the only thing that could 
 - CSS basics
 - JavaScript basics
 - 2D-animation (AE)
+- Attention to detail
 
 ## Code examples
 
@@ -43,3 +44,23 @@ function main() {
     console.log(days);
 }
 ```
+
+## Experience
+
+- Freelance - 2D-animator (2020 - till now)
+- Yandex - Quality Assurance engineer (2018 - 2020)
+- ASUS Republic of Gamers - SMM manager (2016 - 2017)
+- Computer Arena 'LanCraft' - Prject/Community manager (2014 - 2016)
+- Insurance Company 'Allianz' - Unit manager (2011 - 2014)
+
+## Education
+
+- Voronezh State University, pharmacist (2012)
+- Many courses about testing, manually QA tester (2018)
+- Rolling Scopes School, frontend developer (in progress)
+
+## Languages
+
+- Russian, native
+- English, A2
+- German, A0
