@@ -1,6 +1,6 @@
 # Dmitry Balashov
 
-![My photo](../photo_300x.jpg)
+![My photo](https://i.ibb.co/2NZRtN9/photo-300x.jpg)
 
 ## Contacts
 
@@ -9,3 +9,5 @@
 - Discord: dEad#1488
 - E-mail: deadyguy@gmail.com
 - GitHub: [Deadyguy](https://github.com/Deadyguy/)
+
+## Summary
