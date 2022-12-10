@@ -1,5 +1,7 @@
 # Dmitry Balashov
 
+![My photo](../photo_300x.jpg)
+
 ## Contacts
 
 - Location: Voronezh, Russia
