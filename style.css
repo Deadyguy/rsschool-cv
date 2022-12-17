@@ -68,7 +68,7 @@ body {
   width: 50%; /*calc(50% - 20px);*/
   padding: 10px;
   padding-bottom: 35px;
-  border-bottom: 1px solid #6917b6;
+  border-bottom: 2px solid #6917b6;
 }
 
 .section-profile {
