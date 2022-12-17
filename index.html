@@ -143,7 +143,7 @@
         </section>
         <section class="section" id="summary">
           <h2 class="section-title">Summary</h2>
-          <p>
+          <p class="summary-p">
             In my life, I have met many jobs and professions, but the only thing
             that could unite them is <em><b>coding skills</b></em
             >. Coding has been haunting me in varying degrees throughout my life
@@ -162,7 +162,8 @@
                 alt="Git and GitHub"
                 width="25"
                 height="25"
-              /><span class="list-item">Git and GitHub</span>
+              />
+              <span class="list-item">Git and GitHub</span>
             </li>
             <li class="section-item">
               <img
@@ -170,7 +171,8 @@
                 alt="VSCode"
                 width="25"
                 height="25"
-              /><span class="list-item">VSCode</span>
+              />
+              <span class="list-item">VSCode</span>
             </li>
             <li class="section-item">
               <img
@@ -219,7 +221,30 @@
             </li>
           </ul>
         </section>
-        <section class="section" id="code"></section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <p class="code-p">
+            Every day the snail crawls 7 feet up and every night it goes down 2
+            feet. How many days will it take the snail to climb to the specified
+            height?
+          </p>
+          <pre class="pre">
+            <code> function main() {
+                let depth = parseInt(readLine(), 10);
+                let days = 0;
+                for (distance = 0; ; ) {
+                 distance += 7;
+                 days++;
+                 if (distance >= depth) {
+                  break;
+                 } else {
+                  distance -= 2;
+                 }
+                }
+                console.log(days);
+            }</code>           
+          </pre>
+        </section>
         <section class="section" id="experience"></section>
         <section class="section" id="education"></section>
         <section class="section" id="languages"></section>
