@@ -20,19 +20,8 @@ body {
   justify-content: space-between;
 }
 
-header,
-main,
-footer {
-  border: 1px solid red;
-}
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
 .main-header {
-  background-color: #4387ee;
+  background-color: #6917b6;
 }
 
 .nav-list {
@@ -55,5 +44,65 @@ footer {
 }
 
 .nav-item a:hover {
-  color: #801919;
+  color: #fff700;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.section {
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #6917b6;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 15px solid #6917b6;
+}
+
+.profile-logo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5%;
+  box-shadow: 0 1px 4px #6917b6;
+}
+
+.profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #6917b6;
+}
+
+.section-subtitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #6917b6;
 }
