@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #f7f7e2;
+
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-header {
+  background-color: #6917b6;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-item a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-item a:hover {
+  color: #fff700;
+}
+
+.main {
+  margin-bottom: auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 2px solid #6917b6;
+}
+
+.section-bottom {
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 7px solid #6917b6;
+  border-radius: 2%;
+}
+
+.profile-logo {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 5%;
+  box-shadow: 0 1px 4px #6917b6;
+}
+
+.profile-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.section-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #6917b6;
+}
+
+.section-subtitle {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #6917b6;
+}
+
+.section-list {
+  list-style: none;
+  margin-top: 60px;
+}
+
+.list-item {
+  padding-left: 5px;
+  font-size: 22px;
+  letter-spacing: 0.5px;
+}
+
+.list-item a {
+  text-decoration: none;
+  color: #6917b6;
+}
+
+.list-item a:hover {
+  transition: color 0.2s;
+  color: #696833;
+}
+
+.summary-p {
+  margin-top: 75px;
+}
+
+.pre {
+  font-size: 12px;
+  letter-spacing: 1px;
+  background-color: #e3dbeb;
+  padding-top: 2%;
+  border: 1px dashed;
+}
+
+.code-p {
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.section-list-circle {
+  list-style-type: circle;
+}
+
+.section-list-disclosure {
+  margin-top: 40px;
+  list-style-type: disclosure-closed;
+}
+
+.years {
+  color: #696833;
+}
+
+.languages-level-high {
+  color: #6917b6;
+}
+
+.languages-level-medium {
+  color: #8662a8;
+}
+
+.section-list-languages {
+  list-style: none;
+  padding-right: 10%;
+  text-align: left;
+  font-weight: 700;
+}
+
+.languages-box {
+  margin-left: 30%;
+}
+
+.section-list-projects {
+  list-style: none;
+  margin-top: 7%;
+  padding-right: 10%;
+  text-align: center;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+.main-footer {
+  background-color: #6917b6;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.rsschool {
+  width: 150px;
+  height: 50px;
+  float: left;
+}
+
+.copyright {
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 35%;
+}
+
+.my-github {
+  width: 150px;
+  height: 50px;
+  float: right;
+  padding-top: 10px;
+}
