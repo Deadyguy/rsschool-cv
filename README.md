@@ -1,1 +1,1 @@
-# rsschool-cv
+https://deadyguy.github.io/rsschool-cv/index
